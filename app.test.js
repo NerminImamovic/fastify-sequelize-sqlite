@@ -1,7 +1,7 @@
 'use strict'
 
-const { test } = require('tap')
-const build = require('./app')
+const { test } = require('tap');
+const build = require('./app');
 
 const models = require('./models');
 
