@@ -18,7 +18,7 @@ Usage of Fastify with Sqlite (database and memory store) for development and tes
 
 ### Development 
 
-For development we are using sqlite file `database.sqlite3`, where we can store simplest data in sql schema.
+For development we are using sqlite file `database.sqlite3`, where we can store simplest data in sql schema. (We can use Postgres, MySQL, MariaDB, MsSql for persistant storage in development mode.)
 
 1. Run migrations
 
