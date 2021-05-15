@@ -9,10 +9,10 @@ const City = models.City;
 
 City.sync().then(async () => {
     City.create({
-        name: 'Neuquen',
+        name: 'Jablanica',
     });
     City.create({
-        name: 'General Roca',
+        name: 'Stockholm',
     });
 });
 
