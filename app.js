@@ -1,7 +1,6 @@
 'use strict'
 
-const fastify = require('fastify')
-const Sequelize = require('sequelize');
+const fastify = require('fastify');
 
 const models = require('./models');
 const City = models.City;
@@ -15,7 +14,7 @@ function build(opts={}) {
     const cities = await City.findAll();  
 
     return { cities };
-  })
+  });
 
   return app;
 }
