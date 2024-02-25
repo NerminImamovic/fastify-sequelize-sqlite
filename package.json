@@ -14,13 +14,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^3.15.1",
-    "sequelize": "^6.6.2",
-    "sqlite3": "^5.0.2"
+    "fastify": "^4.26.1",
+    "sequelize": "^6.37.1",
+    "sqlite3": "^5.1.7"
   },
   "devDependencies": {
-    "pino-pretty": "^4.8.0",
-    "sequelize-cli": "^6.2.0",
-    "tap": "^15.0.9"
+    "pino-pretty": "^10.3.1",
+    "sequelize-cli": "^6.6.2",
+    "tap": "^18.7.0"
   }
 }
